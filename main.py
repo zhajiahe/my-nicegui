@@ -16,4 +16,4 @@ def index_page() -> None:
 all_pages.create()
 
 
-ui.run(title='Getting Started with NiceGUI')
+ui.run(title='Getting Started with NiceGUI', host='0.0.0.0')
